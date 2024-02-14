@@ -31,7 +31,7 @@ public:
         if (StackTwo.empty())
         {
             // Queue is empty
-            std::cerr << "Error: køen er tom" << std::endl;
+            std::cerr << "Error: Queue is empty" << std::endl;
             return false;
         }
 
