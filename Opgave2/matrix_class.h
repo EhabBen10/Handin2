@@ -132,6 +132,7 @@ void Matrix<Object>::transpose()
     {
         int rowsadded = 0;
         cout << "Need more rows" << endl;
+        // complexty på (cols - rows)
         while (rows < cols) // tilf�j r�kker til der er lige mange kolonner og r�kker
         {
             cout << "Adding row" << endl;
@@ -142,6 +143,7 @@ void Matrix<Object>::transpose()
             rowsadded++;
         }
         cout << "Time to swap" << endl;
+        // complextiy på (cols^2)
         for (size_t i = 0; i < cols; i++) // gennemg� alle kolonner
         {
             for (size_t j = 0; j < i; j++) // Tag den �vre trekant i matricen
@@ -149,6 +151,7 @@ void Matrix<Object>::transpose()
                 swap(matrix[i][j], matrix[j][i]);
             }
         }
+        // complexty på (cols - rows)
         while (rowsadded != 0)
         {
             cout << "Removing excess colums" << endl;
