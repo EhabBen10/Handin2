@@ -13,7 +13,7 @@ int main()
     sa.push(2);
     sa.print();
 
-    for (size_t i = 0; i < 100; i++)
+    for (int i = 0; i < 10; i++)
     {
         sa.push(i);
     }

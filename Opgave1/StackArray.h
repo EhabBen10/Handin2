@@ -11,5 +11,5 @@ public:
 private:
     int *arrPtr_;
     int top_;
-    int size_;
+    int Capacity;
 };
