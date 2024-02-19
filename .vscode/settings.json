@@ -11,6 +11,7 @@
         "__bit_reference": "cpp",
         "__mutex_base": "cpp",
         "tuple": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "list": "cpp"
     }
 }
