@@ -8,7 +8,7 @@ using namespace std;
 class Dictionary
 {
 private:
-    vector<pair<int, string>> d;
+    vector<pair<int, string> > d;
 
 public:
     bool insert(pair<int, string>);
