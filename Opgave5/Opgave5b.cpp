@@ -42,7 +42,7 @@ public:
 };
 
 int main() {
-    HashTableLinearProbing tableLinearProbing(7);
+    HashTableLinearProbing tableLinearProbing(11);
 
     // Indsæt keys
     tableLinearProbing.insert(5);

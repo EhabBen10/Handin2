@@ -3,7 +3,6 @@
 
 class Queue
 {
-
 private:
     std::stack<int> StackOne;
     std::stack<int> StackTwo;
@@ -35,7 +34,6 @@ public:
             return false;
         }
 
-        // MÅSKE IKKE SÅDAN???
         //  udtager
         int Value = StackTwo.top();
         StackTwo.pop();

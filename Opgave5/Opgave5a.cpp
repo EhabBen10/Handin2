@@ -41,8 +41,6 @@ public:
 
 int main() {
     HashTableChaining tableChaining(7);
-
-    //Opgave A
     // Indsætter keys
     tableChaining.insert(5);
     tableChaining.insert(28);
